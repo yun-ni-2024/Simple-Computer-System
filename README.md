@@ -16,4 +16,4 @@ This repository contains FPGA experiments conducted while learning Digital Logic
 
 - Verilog
 - FPGA Development Board
-- FPGA Development Tools (e.g., Xilinx Vivado, Altera Quartus)
+- FPGA Development Tools (e.g., Xilinx Vivado)
