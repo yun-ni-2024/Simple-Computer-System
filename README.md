@@ -1,6 +1,6 @@
 # FPGA-experiments
 
-This repository contains FPGA experiments conducted while learning Digital Logic and Computer Organization. The experiments were done using Verilog to design various computer organization components, and culminated in creating a CPU to run a custom system.
+This repository contains FPGA experiments I conducted while learning computer organization. The experiments were done using Verilog to design various computer organization components, and culminated in creating a CPU to run a custom system.
 
 ## Experiments
 
