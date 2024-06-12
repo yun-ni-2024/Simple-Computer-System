@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Oct 16 20:40:19 2022
+# Process ID: 3012
+# Current directory: E:/vivado/lab_5_cntr32u/lab_5_cntr32u.runs/synth_1
+# Command line: vivado.exe -log cntr32u.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cntr32u.tcl
+# Log file: E:/vivado/lab_5_cntr32u/lab_5_cntr32u.runs/synth_1/cntr32u.vds
+# Journal file: E:/vivado/lab_5_cntr32u/lab_5_cntr32u.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source cntr32u.tcl -notrace

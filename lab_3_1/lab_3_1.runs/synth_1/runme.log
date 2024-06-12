@@ -1,0 +1,256 @@
+
+*** Running vivado
+    with args -log Adder8.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Adder8.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source Adder8.tcl -notrace
+Command: synth_design -top Adder8 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1716
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1020.129 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Adder8' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/Adder8.v:23]
+INFO: [Synth 8-6157] synthesizing module 'CRA8' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/CRA8.v:23]
+INFO: [Synth 8-6157] synthesizing module 'FA' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'FA' (1#1) [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'CRA8' (2#1) [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/CRA8.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Adder8' (3#1) [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/Adder8.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1020.129 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1020.129 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1020.129 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1020.129 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/vivado/lab_3_1/lab_3_1.srcs/constrs_1/new/Adder8.xdc]
+Finished Parsing XDC File [E:/vivado/lab_3_1/lab_3_1.srcs/constrs_1/new/Adder8.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/vivado/lab_3_1/lab_3_1.srcs/constrs_1/new/Adder8.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Adder8_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Adder8_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1078.719 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1078.719 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 16    
+	   2 Input      1 Bit         XORs := 2     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[5] with 1st driver pin 'f_OBUF[5]_inst_i_2/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[5] with 2nd driver pin 'f_OBUF[5]_inst_i_3/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[4] with 1st driver pin 'f_OBUF[4]_inst_i_2/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[4] with 2nd driver pin 'f_OBUF[4]_inst_i_3/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[7] with 1st driver pin 'f_OBUF[7]_inst_i_2/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[7] with 2nd driver pin 'f_OBUF[7]_inst_i_3/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[6] with 1st driver pin 'f_OBUF[6]_inst_i_2/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[6] with 2nd driver pin 'f_OBUF[6]_inst_i_3/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cout_1_OBUF with 1st driver pin 'cout_1_OBUF_inst_i_1/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cout_1_OBUF with 2nd driver pin 'cout_1_OBUF_inst_i_2/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cout_OBUF with 1st driver pin 'cout_OBUF_inst_i_1/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cout_OBUF with 2nd driver pin 'cout_OBUF_inst_i_2/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra1/g with 1st driver pin 'cout_OBUF_inst_i_3/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra1/g with 2nd driver pin 'cout_OBUF_inst_i_4/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra1/g with 3rd driver pin 'cout_OBUF_inst_i_5/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra1/g with 4th driver pin 'cout_OBUF_inst_i_6/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra1/g with 5th driver pin 'cout_OBUF_inst_i_7/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra1/g with 6th driver pin 'cout_OBUF_inst_i_8/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra1/g with 7th driver pin 'cout_OBUF_inst_i_9/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra1/g with 8th driver pin 'cout_OBUF_inst_i_10/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra2/g with 1st driver pin 'cout_OBUF_inst_i_11/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra2/g with 2nd driver pin 'cout_OBUF_inst_i_12/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra2/g with 3rd driver pin 'cout_OBUF_inst_i_13/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra2/g with 4th driver pin 'cout_OBUF_inst_i_14/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra2/g with 5th driver pin 'cout_OBUF_inst_i_15/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra2/g with 6th driver pin 'cout_OBUF_inst_i_16/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra2/g with 7th driver pin 'cout_OBUF_inst_i_17/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin cra2/g with 8th driver pin 'cout_OBUF_inst_i_18/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:28]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[2] with 1st driver pin 'f_OBUF[2]_inst_i_2/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[2] with 2nd driver pin 'f_OBUF[2]_inst_i_3/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[3] with 1st driver pin 'f_OBUF[3]_inst_i_2/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[3] with 2nd driver pin 'f_OBUF[3]_inst_i_3/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[0] with 1st driver pin 'f_OBUF[0]_inst_i_2/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[0] with 2nd driver pin 'f_OBUF[0]_inst_i_3/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[1] with 1st driver pin 'f_OBUF[1]_inst_i_2/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin f1[1] with 2nd driver pin 'f_OBUF[1]_inst_i_3/O' [E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v:27]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|       12|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |    26|
+|2     |LUT3 |    10|
+|3     |LUT4 |     4|
+|4     |LUT5 |     1|
+|5     |LUT6 |    13|
+|6     |IBUF |    17|
+|7     |OBUF |    14|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1078.719 ; gain = 58.590
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 36 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 1078.719 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1078.719 ; gain = 58.590
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1086.055 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1087.074 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+19 Infos, 0 Warnings, 36 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1087.074 ; gain = 66.945
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'E:/vivado/lab_3_1/lab_3_1.runs/synth_1/Adder8.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Adder8_utilization_synth.rpt -pb Adder8_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Oct  3 15:40:18 2022...

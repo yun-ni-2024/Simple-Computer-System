@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Oct 16 20:15:15 2022
+# Process ID: 8724
+# Current directory: E:/vivado/lab_5_milliseconds/lab_5_milliseconds.runs/synth_1
+# Command line: vivado.exe -log miliseconds.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source miliseconds.tcl
+# Log file: E:/vivado/lab_5_milliseconds/lab_5_milliseconds.runs/synth_1/miliseconds.vds
+# Journal file: E:/vivado/lab_5_milliseconds/lab_5_milliseconds.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source miliseconds.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Nov 11 11:02:40 2022
+# Process ID: 9328
+# Current directory: E:/vivado/lab_10_vga/lab_10_vga.runs/vga_mem_synth_1
+# Command line: vivado.exe -log vga_mem.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vga_mem.tcl
+# Log file: E:/vivado/lab_10_vga/lab_10_vga.runs/vga_mem_synth_1/vga_mem.vds
+# Journal file: E:/vivado/lab_10_vga/lab_10_vga.runs/vga_mem_synth_1\vivado.jou
+#-----------------------------------------------------------
+source vga_mem.tcl -notrace

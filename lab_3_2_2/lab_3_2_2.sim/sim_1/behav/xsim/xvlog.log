@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_3_2_2/lab_3_2_2.srcs/sources_1/new/CLA4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLA4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_3_2_2/lab_3_2_2.srcs/sources_1/new/CLU4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLU4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_3_2_2/lab_3_2_2.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_3_2_2/lab_3_2_2.srcs/sources_1/new/CLA8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLA8
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_3_2_2/lab_3_2_2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

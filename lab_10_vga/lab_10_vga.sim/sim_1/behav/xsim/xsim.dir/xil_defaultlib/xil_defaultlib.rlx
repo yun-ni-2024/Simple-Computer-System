@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/vivado/lab10/clkgen.v,1666543656,verilog,,E:/vivado/lab10/seg7decimal.v,,clkgen,,,../../../../lab_10_vga.gen/sources_1/ip/clk_wiz_0,,,,,
+E:/vivado/lab10/seg7decimal.v,1666543446,verilog,,E:/vivado/lab_10_vga/lab_10_vga.srcs/sources_1/new/vga.v,,seg7decimal,,,../../../../lab_10_vga.gen/sources_1/ip/clk_wiz_0,,,,,
+E:/vivado/lab_10_vga/lab_10_vga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1667955481,verilog,,E:/vivado/lab_10_vga/lab_10_vga.srcs/sources_1/new/vga.v,,clk_wiz_0,,,../../../../lab_10_vga.gen/sources_1/ip/clk_wiz_0,,,,,
+E:/vivado/lab_10_vga/lab_10_vga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1667955480,verilog,,E:/vivado/lab_10_vga/lab_10_vga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../lab_10_vga.gen/sources_1/ip/clk_wiz_0,,,,,
+E:/vivado/lab_10_vga/lab_10_vga.gen/sources_1/ip/vga_mem_1/sim/vga_mem.v,1668135757,verilog,,E:/vivado/lab_10_vga/lab_10_vga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,,vga_mem,,,../../../../lab_10_vga.gen/sources_1/ip/clk_wiz_0,,,,,
+E:/vivado/lab_10_vga/lab_10_vga.gen/sources_1/ip/vga_ram/sim/vga_ram.v,1667956276,verilog,,E:/vivado/lab_10_vga/lab_10_vga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,,vga_ram,,,../../../../lab_10_vga.gen/sources_1/ip/clk_wiz_0,,,,,
+E:/vivado/lab_10_vga/lab_10_vga.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/vivado/lab_10_vga/lab_10_vga.srcs/sim_1/new/vga_sim.v,1668139294,verilog,,,,vga_sim,,,../../../../lab_10_vga.gen/sources_1/ip/clk_wiz_0,,,,,
+E:/vivado/lab_10_vga/lab_10_vga.srcs/sources_1/new/vga.v,1668823867,verilog,,E:/vivado/lab_10_vga/lab_10_vga.srcs/sources_1/new/vga_ctrl.v,,vga,,,../../../../lab_10_vga.gen/sources_1/ip/clk_wiz_0,,,,,
+E:/vivado/lab_10_vga/lab_10_vga.srcs/sources_1/new/vga_ctrl.v,1668139541,verilog,,E:/vivado/lab_10_vga/lab_10_vga.srcs/sources_1/new/vga_display.v,,vga_ctrl,,,../../../../lab_10_vga.gen/sources_1/ip/clk_wiz_0,,,,,
+E:/vivado/lab_10_vga/lab_10_vga.srcs/sources_1/new/vga_display.v,1668823976,verilog,,E:/vivado/lab_10_vga/lab_10_vga.srcs/sim_1/new/vga_sim.v,,vga_display,,,../../../../lab_10_vga.gen/sources_1/ip/clk_wiz_0,,,,,

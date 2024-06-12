@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Nov  8 19:02:47 2022
+# Process ID: 16024
+# Current directory: E:/vivado/lab_9_inoutlab/lab_9_inoutlab.runs/impl_1
+# Command line: vivado.exe -log inoutlab.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source inoutlab.tcl -notrace
+# Log file: E:/vivado/lab_9_inoutlab/lab_9_inoutlab.runs/impl_1/inoutlab.vdi
+# Journal file: E:/vivado/lab_9_inoutlab/lab_9_inoutlab.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source inoutlab.tcl -notrace

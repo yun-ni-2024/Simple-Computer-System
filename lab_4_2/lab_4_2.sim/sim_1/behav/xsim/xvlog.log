@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_4_2/lab_4_2.srcs/sources_1/new/d_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_register
+WARNING: [VRFC 10-2096] empty statement in sequential block [E:/vivado/lab_4_2/lab_4_2.srcs/sources_1/new/d_register.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_4_2/lab_4_2.srcs/sim_1/new/d_register_tst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_register_tst

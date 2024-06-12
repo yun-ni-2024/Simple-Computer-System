@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/vivado/lab_3_1/lab_3_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/Adder32.v,1664773231,verilog,,E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/Adder8.v,,Adder32,,,,,,,,
+E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/Adder8.v,1664772616,verilog,,E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/CLA4.v,,Adder8,,,,,,,,
+E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/CLA4.v,1664764455,verilog,,E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/CLA4_tst.v,,CLA4,,,,,,,,
+E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/CLA4_tst.v,1664501167,verilog,,E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/CLA8.v,,CLA4_tst,,,,,,,,
+E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/CLA8.v,1664764314,verilog,,E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/CLU4.v,,CLA8,,,,,,,,
+E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/CLU4.v,1664463757,verilog,,E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/CRA8.v,,CLU4,,,,,,,,
+E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/CRA8.v,1664767945,verilog,,E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v,,CRA8,,,,,,,,
+E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/FA.v,1664760695,verilog,,E:/vivado/lab_3_1/lab_3_1.srcs/sources_1/new/Adder8.v,,FA,,,,,,,,

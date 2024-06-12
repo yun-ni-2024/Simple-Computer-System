@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Oct 12 09:58:41 2022
+# Process ID: 12380
+# Current directory: E:/vivado/lab_5_3/lab_5_3.runs/impl_1
+# Command line: vivado.exe -log digitalclk.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source digitalclk.tcl -notrace
+# Log file: E:/vivado/lab_5_3/lab_5_3.runs/impl_1/digitalclk.vdi
+# Journal file: E:/vivado/lab_5_3/lab_5_3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source digitalclk.tcl -notrace

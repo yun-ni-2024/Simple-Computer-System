@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sim_1/new/multi_8b_tst.v,1666169511,verilog,,,,multi_u_tst,,,,,,,,
+E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sources_1/new/ALU8.v,1666153517,verilog,,E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sources_1/new/Adder8.v,,ALU8,,,,,,,,
+E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sources_1/new/Adder8.v,1666153493,verilog,,E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sources_1/new/CLA4.v,,Adder8,,,,,,,,
+E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sources_1/new/CLA4.v,1666153447,verilog,,E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sources_1/new/CLA8.v,,CLA4,,,,,,,,
+E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sources_1/new/CLA8.v,1666153470,verilog,,E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sources_1/new/CLU4.v,,CLA8,,,,,,,,
+E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sources_1/new/CLU4.v,1666153417,verilog,,E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sources_1/new/FA.v,,CLU4,,,,,,,,
+E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sources_1/new/FA.v,1666153391,verilog,,E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sources_1/new/multi_8b.v,,FA,,,,,,,,
+E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sources_1/new/multi_8b.v,1666428705,verilog,,E:/vivado/lab_7_2_multi_8b/lab_7_2_multi_8b.srcs/sim_1/new/multi_8b_tst.v,,multi_8b,,,,,,,,

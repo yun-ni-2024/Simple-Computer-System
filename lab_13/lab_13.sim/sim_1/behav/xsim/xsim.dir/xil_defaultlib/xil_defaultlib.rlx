@@ -1,0 +1,22 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/vivado/lab_13/lab_13.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sim_1/new/dmem.v,1670491507,verilog,,E:/vivado/lab_13/lab_13.srcs/sim_1/new/testdmem.v,,dmem,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sim_1/new/testdmem.v,1670491658,verilog,,E:/vivado/lab_13/lab_13.srcs/sim_1/new/testmem.v,,testdmem,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sim_1/new/testmem.v,1670491577,verilog,,E:/vivado/lab_13/lab_13.srcs/sim_1/new/tst.v,,testmem,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sim_1/new/tst.v,1672975247,verilog,,,,cpu_batch_vlg_tst,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sources_1/new/ALU.v,1671164391,verilog,,E:/vivado/lab_13/lab_13.srcs/sources_1/new/Adder.v,,ALU,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sources_1/new/Adder.v,1670379078,verilog,,E:/vivado/lab_13/lab_13.srcs/sources_1/new/BranchControl.v,,Adder,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sources_1/new/BranchControl.v,1670668594,verilog,,E:/vivado/lab_13/lab_13.srcs/sources_1/new/Control.v,,BranchControl,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sources_1/new/Control.v,1670668112,verilog,,E:/vivado/lab_13/lab_13.srcs/sources_1/new/DataMem.v,,Control,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sources_1/new/DataMem.v,1672757909,verilog,,E:/vivado/lab_13/lab_13.srcs/sources_1/new/InstrMem.v,,DataMem,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sources_1/new/InstrMem.v,1671159728,verilog,,E:/vivado/lab_13/lab_13.srcs/sources_1/new/InstrToImm.v,,InstrMem,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sources_1/new/InstrToImm.v,1671164617,verilog,,E:/vivado/lab_13/lab_13.srcs/sources_1/new/MUX2.v,,InstrToImm,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sources_1/new/MUX2.v,1670668610,verilog,,E:/vivado/lab_13/lab_13.srcs/sources_1/new/MUX3.v,,MUX2,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sources_1/new/MUX3.v,1670668570,verilog,,E:/vivado/lab_13/lab_13.srcs/sources_1/new/PCcount.v,,MUX3,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sources_1/new/PCcount.v,1671163975,verilog,,E:/vivado/lab_13/lab_13.srcs/sources_1/new/RegFile.v,,PCcount,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sources_1/new/RegFile.v,1672825906,verilog,,E:/vivado/lab_13/lab_13.srcs/sources_1/new/Top.v,,RegFile,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sources_1/new/Top.v,1671164764,verilog,,E:/vivado/lab_13/lab_13.srcs/sim_1/new/tst.v,,Top,,,,,,,,
+E:/vivado/lab_13/lab_13.srcs/sources_1/new/seg7decimal.v,1670671721,verilog,,E:/vivado/lab_13/lab_13.srcs/sim_1/new/tst.v,,seg7decimal,,,,,,,,

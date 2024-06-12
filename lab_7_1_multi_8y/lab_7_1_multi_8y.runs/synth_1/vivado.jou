@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Oct 21 10:19:54 2022
+# Process ID: 1032
+# Current directory: E:/vivado/lab_7_1_multi_8y/lab_7_1_multi_8y.runs/synth_1
+# Command line: vivado.exe -log multi_8y.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source multi_8y.tcl
+# Log file: E:/vivado/lab_7_1_multi_8y/lab_7_1_multi_8y.runs/synth_1/multi_8y.vds
+# Journal file: E:/vivado/lab_7_1_multi_8y/lab_7_1_multi_8y.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source multi_8y.tcl -notrace

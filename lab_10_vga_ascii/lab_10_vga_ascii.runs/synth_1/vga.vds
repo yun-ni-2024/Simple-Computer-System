@@ -1,0 +1,275 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Nov 18 14:25:33 2022
+# Process ID: 13328
+# Current directory: E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.runs/synth_1
+# Command line: vivado.exe -log vga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vga.tcl
+# Log file: E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.runs/synth_1/vga.vds
+# Journal file: E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source vga.tcl -notrace
+Command: synth_design -top vga -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12628
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1015.230 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'vga' [E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.srcs/sources_1/new/vga.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.runs/synth_1/.Xil/Vivado-13328-fuck/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.runs/synth_1/.Xil/Vivado-13328-fuck/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'vga_ctrl' [E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.srcs/sources_1/new/vga_ctrl.v:95]
+	Parameter H_Sync_Width bound to: 96 - type: integer 
+	Parameter H_Back_Porche bound to: 48 - type: integer 
+	Parameter H_Active_Pixels bound to: 640 - type: integer 
+	Parameter H_Front_Porch bound to: 16 - type: integer 
+	Parameter H_Totals bound to: 799 - type: integer 
+	Parameter V_Sync_Width bound to: 2 - type: integer 
+	Parameter V_Back_Porche bound to: 33 - type: integer 
+	Parameter V_Active_Pixels bound to: 480 - type: integer 
+	Parameter V_Front_Porch bound to: 10 - type: integer 
+	Parameter V_Totals bound to: 524 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vga_ctrl' (2#1) [E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.srcs/sources_1/new/vga_ctrl.v:95]
+INFO: [Synth 8-6157] synthesizing module 'vga_display' [E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.srcs/sources_1/new/vga_display.v:23]
+	Parameter RED bound to: 12'b111100000000 
+	Parameter ORANGE bound to: 12'b111110000000 
+	Parameter YELLOW bound to: 12'b111111110000 
+	Parameter GREEN bound to: 12'b000011110000 
+	Parameter CYAN bound to: 12'b000011111111 
+	Parameter BLUE bound to: 12'b000000001111 
+	Parameter PURPLE bound to: 12'b111100001111 
+	Parameter BLACK bound to: 12'b000000000000 
+	Parameter WHITE bound to: 12'b111111111111 
+	Parameter GRAY bound to: 12'b110111011101 
+INFO: [Synth 8-3876] $readmem data file 'E:/vivado/lab10_new/ASC16x8.txt' is read successfully [E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.srcs/sources_1/new/vga_display.v:50]
+INFO: [Synth 8-3876] $readmem data file 'E:/vivado/lab10_new/ascii16_96.txt' is read successfully [E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.srcs/sources_1/new/vga_display.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'vga_display' (3#1) [E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.srcs/sources_1/new/vga_display.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'vga' (4#1) [E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.srcs/sources_1/new/vga.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1015.230 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1015.230 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1015.230 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1015.230 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'my25m_clk'
+Finished Parsing XDC File [e:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'my25m_clk'
+Parsing XDC File [E:/vivado/lab10/vga.xdc]
+Finished Parsing XDC File [E:/vivado/lab10/vga.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/vivado/lab10/vga.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vga_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/vga_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1072.098 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1072.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1072.098 ; gain = 56.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1072.098 ; gain = 56.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  e:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  e:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for my25m_clk. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1072.098 ; gain = 56.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1072.098 ; gain = 56.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   10 Bit       Adders := 4     
+	   3 Input    7 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
++---ROMs : 
+	                    ROMs := 1     
++---Muxes : 
+	 129 Input  128 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1072.098 ; gain = 56.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------+----------------+---------------+----------------+
+|Module Name | RTL Object     | Depth x Width | Implemented As | 
++------------+----------------+---------------+----------------+
+|vga_display | ascii_addr_reg | 4096x8        | Block RAM      | 
++------------+----------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1072.098 ; gain = 56.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1090.031 ; gain = 74.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance my_diaplay/ascii_addr_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1092.574 ; gain = 77.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1100.844 ; gain = 85.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1100.844 ; gain = 85.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1100.844 ; gain = 85.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1100.844 ; gain = 85.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1100.844 ; gain = 85.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1100.844 ; gain = 85.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |clk_wiz  |     1|
+|2     |CARRY4   |     4|
+|3     |LUT1     |     5|
+|4     |LUT2     |     7|
+|5     |LUT3     |     7|
+|6     |LUT4     |    12|
+|7     |LUT5     |    29|
+|8     |LUT6     |   203|
+|9     |MUXF7    |    72|
+|10    |MUXF8    |    26|
+|11    |RAMB36E1 |     1|
+|12    |FDRE     |    27|
+|13    |IBUF     |     2|
+|14    |OBUF     |    24|
+|15    |OBUFT    |    23|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1100.844 ; gain = 85.613
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1100.844 ; gain = 28.746
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1100.844 ; gain = 85.613
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1100.844 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 103 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1108.691 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 1108.691 ; gain = 93.461
+INFO: [Common 17-1381] The checkpoint 'E:/vivado/lab_10_vga_ascii/lab_10_vga_ascii.runs/synth_1/vga.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file vga_utilization_synth.rpt -pb vga_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 18 14:26:17 2022...

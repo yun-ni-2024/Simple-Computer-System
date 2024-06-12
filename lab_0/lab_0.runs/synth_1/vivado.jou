@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Sep 21 10:49:02 2022
+# Process ID: 10168
+# Current directory: E:/vivado/lab_0/lab_0.runs/synth_1
+# Command line: vivado.exe -log my_first_fpga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source my_first_fpga.tcl
+# Log file: E:/vivado/lab_0/lab_0.runs/synth_1/my_first_fpga.vds
+# Journal file: E:/vivado/lab_0/lab_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source my_first_fpga.tcl -notrace

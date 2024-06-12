@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_6_2_barrelsft8/lab_5_2_barrelsft8.srcs/sources_1/new/barrelsft8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module barrelsft8
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_6_2_barrelsft8/lab_5_2_barrelsft8.srcs/sim_1/new/barrelsft8_tst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module barrelsft8_tst

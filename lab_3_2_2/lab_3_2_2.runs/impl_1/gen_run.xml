@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1664766404">
+  <File Type="ROUTE-PWR" Name="ALU8_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ALU8.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="ALU8_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ALU8_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="ALU8.msk"/>
+  <File Type="ROUTE-CLK" Name="ALU8_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="ALU8.vdi"/>
+  <File Type="BG-BIT" Name="ALU8.bit"/>
+  <File Type="BG-DRC" Name="ALU8.drc"/>
+  <File Type="BG-BGN" Name="ALU8.bgn"/>
+  <File Type="BG-BIN" Name="ALU8.bin"/>
+  <File Type="BITSTR-RBT" Name="ALU8.rbt"/>
+  <File Type="BITSTR-NKY" Name="ALU8.nky"/>
+  <File Type="BITSTR-BMM" Name="ALU8_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ALU8_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="ALU8.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="ALU8.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ALU8.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="ALU8_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ALU8.hwdef"/>
+  <File Type="PLACE-IO" Name="ALU8_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ALU8_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ALU8_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ALU8_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ALU8_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="ALU8_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ALU8_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ALU8_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ALU8_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ALU8_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="ALU8_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ALU8_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ALU8_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ALU8_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ALU8_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ALU8_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ALU8_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ALU8_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ALU8_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="ALU8_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="ALU8_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="ALU8_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ALU8_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="ALU8_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ALU8_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ALU8_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ALU8_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="ALU8_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ALU8_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="ALU8.pdi"/>
+  <File Type="RCFI_FILE" Name="ALU8.rcfi"/>
+  <File Type="CFI_FILE" Name="ALU8.cfi"/>
+  <File Type="RNPI_FILE" Name="ALU8.rnpi"/>
+  <File Type="NPI_FILE" Name="ALU8.npi"/>
+  <File Type="RBD_FILE" Name="ALU8.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Adder8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab_3_1/lab_3_1.srcs/sources_1/new/Adder8.v"/>
+        <Attr Name="ImportTime" Val="1664465439"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CLA4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab_3_1/lab_3_1.srcs/sources_1/new/CLA4.v"/>
+        <Attr Name="ImportTime" Val="1664463770"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CLU4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab_3_1/lab_3_1.srcs/sources_1/new/CLU4.v"/>
+        <Attr Name="ImportTime" Val="1664463757"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab_3_1/lab_3_1.srcs/sources_1/new/FA.v"/>
+        <Attr Name="ImportTime" Val="1664463744"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ALU8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab_3_1/lab_3_1.srcs/sources_1/new/ALU8.v"/>
+        <Attr Name="ImportTime" Val="1664465979"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CLA8.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab_3_1/lab_3_1.srcs/sources_1/new/CLA8.v"/>
+        <Attr Name="ImportTime" Val="1664464054"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CRA8.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab_3_1/lab_3_1.srcs/sources_1/new/CRA8.v"/>
+        <Attr Name="ImportTime" Val="1664464664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ALU8"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/ALU8.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab_3_2/lab_3_2.srcs/constrs_1/new/ALU8.xdc"/>
+        <Attr Name="ImportTime" Val="1664505730"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

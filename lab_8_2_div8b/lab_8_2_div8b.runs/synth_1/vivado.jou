@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Oct 26 18:48:00 2022
+# Process ID: 16128
+# Current directory: E:/vivado/lab_8_2_div8b/lab_8_2_div8b.runs/synth_1
+# Command line: vivado.exe -log div8b.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source div8b.tcl
+# Log file: E:/vivado/lab_8_2_div8b/lab_8_2_div8b.runs/synth_1/div8b.vds
+# Journal file: E:/vivado/lab_8_2_div8b/lab_8_2_div8b.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source div8b.tcl -notrace

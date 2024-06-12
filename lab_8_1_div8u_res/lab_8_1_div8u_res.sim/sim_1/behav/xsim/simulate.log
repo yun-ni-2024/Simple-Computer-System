@@ -1,0 +1,5 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+error here
+
+$stop called at time : 915 ns : File "E:/vivado/lab_8_1_div8u_res/lab_8_1_div8u_res.srcs/sim_1/new/div8u_tst.v" Line 44

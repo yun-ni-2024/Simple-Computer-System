@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Oct 21 19:55:50 2022
+# Process ID: 14136
+# Current directory: E:/vivado/lab_7_1_multi_8u/lab_7_1_multi_8u.runs/impl_1
+# Command line: vivado.exe -log multi_8u.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source multi_8u.tcl -notrace
+# Log file: E:/vivado/lab_7_1_multi_8u/lab_7_1_multi_8u.runs/impl_1/multi_8u.vdi
+# Journal file: E:/vivado/lab_7_1_multi_8u/lab_7_1_multi_8u.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source multi_8u.tcl -notrace

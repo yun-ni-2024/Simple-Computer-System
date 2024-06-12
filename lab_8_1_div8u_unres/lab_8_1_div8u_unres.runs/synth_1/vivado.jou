@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Nov  9 07:52:32 2022
+# Process ID: 11504
+# Current directory: E:/vivado/lab_8_1_div8u_unres/lab_8_1_div8u_unres.runs/synth_1
+# Command line: vivado.exe -log div8u_unres.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source div8u_unres.tcl
+# Log file: E:/vivado/lab_8_1_div8u_unres/lab_8_1_div8u_unres.runs/synth_1/div8u_unres.vds
+# Journal file: E:/vivado/lab_8_1_div8u_unres/lab_8_1_div8u_unres.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source div8u_unres.tcl -notrace

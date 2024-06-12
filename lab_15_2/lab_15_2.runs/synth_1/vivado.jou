@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jan  5 15:10:12 2023
+# Process ID: 16412
+# Current directory: E:/vivado/lab_15_2/lab_15_2.runs/synth_1
+# Command line: vivado.exe -log CPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CPU.tcl
+# Log file: E:/vivado/lab_15_2/lab_15_2.runs/synth_1/CPU.vds
+# Journal file: E:/vivado/lab_15_2/lab_15_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CPU.tcl -notrace

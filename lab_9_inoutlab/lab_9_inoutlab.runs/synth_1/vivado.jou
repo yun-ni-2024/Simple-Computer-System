@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Nov  8 20:47:17 2022
+# Process ID: 10036
+# Current directory: E:/vivado/lab_9_inoutlab/lab_9_inoutlab.runs/synth_1
+# Command line: vivado.exe -log inoutlab.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source inoutlab.tcl
+# Log file: E:/vivado/lab_9_inoutlab/lab_9_inoutlab.runs/synth_1/inoutlab.vds
+# Journal file: E:/vivado/lab_9_inoutlab/lab_9_inoutlab.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source inoutlab.tcl -notrace

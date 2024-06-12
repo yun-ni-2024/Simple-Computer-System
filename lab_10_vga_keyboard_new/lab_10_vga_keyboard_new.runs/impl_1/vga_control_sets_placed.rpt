@@ -1,0 +1,93 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Jan  4 11:28:51 2023
+| Host         : dummy running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file vga_control_sets_placed.rpt
+| Design       : vga
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    15 |
+|    Minimum number of control sets                        |    15 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    76 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    15 |
+| >= 0 to < 4        |     4 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     3 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              39 |           14 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              10 |            3 |
+| Yes          | No                    | No                     |              64 |           31 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              19 |            8 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------+-------------------------------------------------+---------------------------------------------+------------------+----------------+--------------+
+|             Clock Signal            |                  Enable Signal                  |               Set/Reset Signal              | Slice Load Count | Bel Load Count | Bels / Slice |
++-------------------------------------+-------------------------------------------------+---------------------------------------------+------------------+----------------+--------------+
+|  CLK50MHZ_BUFG                      | my_keyboard/kbscancode/debounce/O01_out         |                                             |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG                      | my_keyboard/kbscancode/debounce/O10_out         |                                             |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG                      | my_keyboard/kbscancode/debounce/Iv1_i_1_n_0     |                                             |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG                      | my_keyboard/kbscancode/debounce/clear           |                                             |                1 |              1 |         1.00 |
+| ~my_keyboard/kbscancode/debounce/O0 | my_keyboard/kbscancode/cnt                      | my_keyboard/kbscancode/cnt[3]_i_1_n_0       |                1 |              4 |         4.00 |
+|  CLK50MHZ_BUFG                      |                                                 |                                             |                3 |              4 |         1.33 |
+|  CLK50MHZ_BUFG                      | my_keyboard/kbscancode/debounce/cnt1[4]_i_1_n_0 | my_keyboard/kbscancode/debounce/Iv1_i_1_n_0 |                2 |              5 |         2.50 |
+|  my_keyboard/kbscancode/flag        | my_keyboard/kbscancode/keycode[7]_i_1_n_0       |                                             |                1 |              8 |         8.00 |
+| ~my_keyboard/kbscancode/debounce/O0 |                                                 |                                             |                3 |              9 |         3.00 |
+|  my25m_clk/inst/clk_out1            |                                                 | BTNC_IBUF                                   |                3 |             10 |         3.33 |
+|  my25m_clk/inst/clk_out1            | my_vga/cnt_v_1                                  | BTNC_IBUF                                   |                5 |             10 |         2.00 |
+|  my25m_clk/inst/clk_out1            | my_diaplay/ascii_count0_carry_n_0               |                                             |                5 |             12 |         2.40 |
+|  my25m_clk/inst/clk_out1            | my_diaplay/ascii_addr                           |                                             |                9 |             20 |         2.22 |
+|  CLK50MHZ_BUFG                      | my_keyboard/kbscancode/keycode_reg[7]_1         |                                             |               12 |             20 |         1.67 |
+|  my25m_clk/inst/clk_out1            |                                                 |                                             |                8 |             26 |         3.25 |
++-------------------------------------+-------------------------------------------------+---------------------------------------------+------------------+----------------+--------------+
+
+

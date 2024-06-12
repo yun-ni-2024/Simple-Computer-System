@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Oct  3 18:03:40 2022
+# Process ID: 328
+# Current directory: E:/vivado/lab_4_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14124 E:\vivado\lab_4_2\lab_4_2.xpr
+# Log file: E:/vivado/lab_4_2/vivado.log
+# Journal file: E:/vivado/lab_4_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado/lab_4_2/lab_4_2.xpr
+file mkdir E:/vivado/lab_4_2/lab_4_2.srcs/sources_1/new
+close [ open E:/vivado/lab_4_2/lab_4_2.srcs/sources_1/new/d_register.v w ]
+add_files E:/vivado/lab_4_2/lab_4_2.srcs/sources_1/new/d_register.v
+update_compile_order -fileset sources_1
+file mkdir E:/vivado/lab_4_2/lab_4_2.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/vivado/lab_4_2/lab_4_2.srcs/sim_1/new/d_register_tst.v w ]
+add_files -fileset sim_1 E:/vivado/lab_4_2/lab_4_2.srcs/sim_1/new/d_register_tst.v
+update_compile_order -fileset sim_1
+launch_simulation
+source d_register.tcl
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim

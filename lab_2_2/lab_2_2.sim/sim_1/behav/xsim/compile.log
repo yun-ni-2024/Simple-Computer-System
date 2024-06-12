@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_2_2/lab_2_2.srcs/sources_1/new/enc8to3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enc8to3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_2_2/lab_2_2.srcs/sim_1/new/enc8to3_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enc8to3_test

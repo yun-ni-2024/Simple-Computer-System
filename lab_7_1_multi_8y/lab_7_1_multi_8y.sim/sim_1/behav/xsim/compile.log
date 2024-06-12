@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_7_1_multi_8y/lab_7_1_multi_8y.srcs/sources_1/new/ALU8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU8
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_7_1_multi_8y/lab_7_1_multi_8y.srcs/sources_1/new/Adder8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder8
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_7_1_multi_8y/lab_7_1_multi_8y.srcs/sources_1/new/CLA4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLA4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_7_1_multi_8y/lab_7_1_multi_8y.srcs/sources_1/new/CLA8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLA8
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_7_1_multi_8y/lab_7_1_multi_8y.srcs/sources_1/new/CLU4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLU4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_7_1_multi_8y/lab_7_1_multi_8y.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_7_1_multi_8y/lab_7_1_multi_8y.srcs/sources_1/new/multi_8u.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multi_8y
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_7_1_multi_8y/lab_7_1_multi_8y.srcs/sim_1/new/multi_u_tst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multi_y_tst

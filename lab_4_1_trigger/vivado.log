@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Oct  3 18:46:58 2022
+# Process ID: 1192
+# Current directory: E:/vivado/lab_4_1_trigger
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16184 E:\vivado\lab_4_1_trigger\lab_4_1_trigger.xpr
+# Log file: E:/vivado/lab_4_1_trigger/vivado.log
+# Journal file: E:/vivado/lab_4_1_trigger\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado/lab_4_1_trigger/lab_4_1_trigger.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/vivado/lab_4_1_trigger/lab_4_1_trigger.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1014.555 ; gain = 0.000
+update_compile_order -fileset sources_1
+file mkdir E:/vivado/lab_4_1_trigger/lab_4_1_trigger.srcs/constrs_1
+file mkdir E:/vivado/lab_4_1_trigger/lab_4_1_trigger.srcs/constrs_1/new
+close [ open E:/vivado/lab_4_1_trigger/lab_4_1_trigger.srcs/constrs_1/new/d_trigger.xdc w ]
+add_files -fileset constrs_1 E:/vivado/lab_4_1_trigger/lab_4_1_trigger.srcs/constrs_1/new/d_trigger.xdc
+launch_runs impl_1 -jobs 8
+[Mon Oct  3 19:40:31 2022] Launched synth_1...
+Run output will be captured here: E:/vivado/lab_4_1_trigger/lab_4_1_trigger.runs/synth_1/runme.log
+[Mon Oct  3 19:40:32 2022] Launched impl_1...
+Run output will be captured here: E:/vivado/lab_4_1_trigger/lab_4_1_trigger.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1132.695 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1747.574 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1747.574 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1747.574 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1926.156 ; gain = 911.602
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct  3 21:36:54 2022...

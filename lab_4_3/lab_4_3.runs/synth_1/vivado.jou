@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Nov  6 14:39:59 2022
+# Process ID: 13320
+# Current directory: E:/vivado/lab_4_3/lab_4_3.runs/synth_1
+# Command line: vivado.exe -log d_reg8file.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source d_reg8file.tcl
+# Log file: E:/vivado/lab_4_3/lab_4_3.runs/synth_1/d_reg8file.vds
+# Journal file: E:/vivado/lab_4_3/lab_4_3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source d_reg8file.tcl -notrace

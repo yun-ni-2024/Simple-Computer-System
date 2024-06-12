@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Nov 25 10:11:59 2022
+# Process ID: 1932
+# Current directory: E:/vivado/lab_10_keyboard/lab_10_keyboard.runs/synth_1
+# Command line: vivado.exe -log vga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vga.tcl
+# Log file: E:/vivado/lab_10_keyboard/lab_10_keyboard.runs/synth_1/vga.vds
+# Journal file: E:/vivado/lab_10_keyboard/lab_10_keyboard.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source vga.tcl -notrace
