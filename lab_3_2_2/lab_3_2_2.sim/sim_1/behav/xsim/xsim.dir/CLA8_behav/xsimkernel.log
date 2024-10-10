@@ -1,7 +1,0 @@
-Running: xsim.dir/CLA8_behav/xsimk.exe -simmode gui -wdb CLA8_behav.wdb -simrunnum 0 -socket 51916
-Design successfully loaded
-Design Loading Memory Usage: 7360 KB (Peak: 7360 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 7972 KB (Peak: 7972 KB)
-Simulation CPU Usage: 0 ms

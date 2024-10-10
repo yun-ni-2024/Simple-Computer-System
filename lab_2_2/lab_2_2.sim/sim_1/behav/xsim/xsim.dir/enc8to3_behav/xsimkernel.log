@@ -1,7 +1,0 @@
-Running: xsim.dir/enc8to3_behav/xsimk.exe -simmode gui -wdb enc8to3_behav.wdb -simrunnum 0 -socket 51515
-Design successfully loaded
-Design Loading Memory Usage: 7324 KB (Peak: 7324 KB)
-Design Loading CPU Usage: 30 ms
-Simulation completed
-Simulation Memory Usage: 7908 KB (Peak: 7908 KB)
-Simulation CPU Usage: 30 ms

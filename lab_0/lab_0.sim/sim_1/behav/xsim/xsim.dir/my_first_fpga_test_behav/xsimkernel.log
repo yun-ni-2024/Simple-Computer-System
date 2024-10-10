@@ -1,7 +1,0 @@
-Running: xsim.dir/my_first_fpga_test_behav/xsimk.exe -simmode gui -wdb my_first_fpga_test_behav.wdb -simrunnum 0 -socket 51453
-Design successfully loaded
-Design Loading Memory Usage: 6780 KB (Peak: 6780 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 7324 KB (Peak: 7324 KB)
-Simulation CPU Usage: 0 ms

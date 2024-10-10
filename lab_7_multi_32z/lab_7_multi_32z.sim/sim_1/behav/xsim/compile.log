@@ -1,5 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_7_multi_32z/lab_7_multi_32z.srcs/sources_1/new/multi_32z.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module multi_32z
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_7_multi_32z/lab_7_multi_32z.srcs/sim_1/new/tst.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tst
-WARNING: [VRFC 10-2096] empty statement in sequential block [E:/vivado/lab_7_multi_32z/lab_7_multi_32z.srcs/sim_1/new/tst.v:31]

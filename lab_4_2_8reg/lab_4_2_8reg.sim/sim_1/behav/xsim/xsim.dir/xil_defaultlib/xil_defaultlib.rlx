@@ -1,8 +1,0 @@
-0.7
-2020.2
-Nov 18 2020
-09:47:47
-E:/vivado/lab_4_2_8reg/lab_4_2_8reg.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
-E:/vivado/lab_4_2_8reg/lab_4_2_8reg.srcs/sim_1/new/d_reg8_tst.v,1665114323,verilog,,,,d_reg8_tst,,,,,,,,
-E:/vivado/lab_4_2_8reg/lab_4_2_8reg.srcs/sources_1/new/d_reg8.v,1664799978,verilog,,E:/vivado/lab_4_2_8reg/lab_4_2_8reg.srcs/sources_1/new/d_register.v,,d_reg8,,,,,,,,
-E:/vivado/lab_4_2_8reg/lab_4_2_8reg.srcs/sources_1/new/d_register.v,1664797977,verilog,,E:/vivado/lab_4_2_8reg/lab_4_2_8reg.srcs/sim_1/new/d_reg8_tst.v,,d_register,,,,,,,,

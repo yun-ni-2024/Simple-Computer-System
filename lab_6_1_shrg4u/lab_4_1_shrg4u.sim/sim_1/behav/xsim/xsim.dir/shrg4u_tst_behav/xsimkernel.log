@@ -1,7 +1,0 @@
-Running: xsim.dir/shrg4u_tst_behav/xsimk.exe -simmode gui -wdb shrg4u_tst_behav.wdb -simrunnum 0 -socket 52373
-Design successfully loaded
-Design Loading Memory Usage: 6780 KB (Peak: 6780 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 7484 KB (Peak: 7484 KB)
-Simulation CPU Usage: 0 ms

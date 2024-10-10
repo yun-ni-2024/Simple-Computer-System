@@ -1,7 +1,0 @@
-Running: xsim.dir/d_trigger_behav/xsimk.exe -simmode gui -wdb d_trigger_behav.wdb -simrunnum 0 -socket 53737
-Design successfully loaded
-Design Loading Memory Usage: 7352 KB (Peak: 7352 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 7920 KB (Peak: 7920 KB)
-Simulation CPU Usage: 0 ms

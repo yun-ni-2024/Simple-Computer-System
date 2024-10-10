@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_7_multi_32b/lab_7_multi_32b.srcs/sources_1/new/multi_32b.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module multi_32b
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_7_multi_32b/lab_7_multi_32b.srcs/sim_1/new/multi_32b_tst.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module multi_b_tst

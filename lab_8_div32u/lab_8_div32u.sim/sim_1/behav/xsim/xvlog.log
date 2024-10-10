@@ -1,5 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_8_div32u/lab_8_div32u.srcs/sources_1/new/div32u.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module div32u
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_8_div32u/lab_8_div32u.srcs/sim_1/new/tst.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tst
-INFO: [VRFC 10-311] analyzing module div_u_check

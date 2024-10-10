@@ -1,7 +1,0 @@
-Running: xsim.dir/barrelsft32_behav/xsimk.exe -simmode gui -wdb barrelsft32_behav.wdb -simrunnum 0 -socket 53885
-Design successfully loaded
-Design Loading Memory Usage: 7364 KB (Peak: 7364 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 7936 KB (Peak: 7936 KB)
-Simulation CPU Usage: 15 ms

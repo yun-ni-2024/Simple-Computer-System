@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_5_2_clk1s/lab_5_2_clk1s.srcs/sources_1/new/clk1s.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module clk1s
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_5_2_clk1s/lab_5_2_clk1s.srcs/sim_1/new/s1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module s1

@@ -1,8 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_4_3/lab_4_3.srcs/sources_1/new/d_reg8.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module d_reg8
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_4_3/lab_4_3.srcs/sources_1/new/d_reg8file.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module d_reg8file
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_4_3/lab_4_3.srcs/sources_1/new/d_register.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module d_register
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/lab_4_3/lab_4_3.srcs/sim_1/new/d_reg8file_tst.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module d_reg8file_tst

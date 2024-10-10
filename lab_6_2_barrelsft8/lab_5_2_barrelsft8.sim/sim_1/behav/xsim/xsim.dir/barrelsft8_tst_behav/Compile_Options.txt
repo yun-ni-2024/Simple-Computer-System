@@ -1,1 +1,0 @@
--wto "5ba717dc53ac491dbe70b2b947845734" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "barrelsft8_tst_behav" "xil_defaultlib.barrelsft8_tst" "xil_defaultlib.glbl" -log "elaborate.log" 

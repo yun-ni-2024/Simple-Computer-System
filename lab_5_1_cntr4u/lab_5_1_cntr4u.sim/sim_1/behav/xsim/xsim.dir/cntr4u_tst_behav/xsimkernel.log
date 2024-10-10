@@ -1,7 +1,0 @@
-Running: xsim.dir/cntr4u_tst_behav/xsimk.exe -simmode gui -wdb cntr4u_tst_behav.wdb -simrunnum 0 -socket 64790
-Design successfully loaded
-Design Loading Memory Usage: 6796 KB (Peak: 6796 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 7392 KB (Peak: 7392 KB)
-Simulation CPU Usage: 0 ms
